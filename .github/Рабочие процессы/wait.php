@@ -14,6 +14,7 @@ $user1 = mysqli_fetch_row($result);
 if ($user1[0]==NULL){
     goto first;
 }
+
 if($user==$user1[0]){
     if ($user2[0]!=NULL){
         $query = "UPDATE players SET time = 0 WHERE login = '$user'";
