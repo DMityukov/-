@@ -1,3 +1,4 @@
+
 <?php
 require_once 'database.php';
 $token=$_COOKIE['cookie_token'];
